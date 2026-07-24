@@ -1,0 +1,91 @@
+.nav {
+	background: #342B4B; /*#43395d #211a34*/
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+/* Lista de links del menú */
+.nav ul {
+	position: relative;
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Cada elemento del menú */
+.nav ul li {
+	width: 150px;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	z-index: 2;
+	overflow: hidden;
+}
+
+/* Links dentro de cada elemento del menú */
+.nav ul li a {
+	text-decoration: none;
+	color: wheat;
+	font-weight: bold;
+	font-size: 1rem;
+	white-space: nowrap;
+}
+
+.nombre {
+    font-size: 100px;
+}
+
+.titulo {
+    font-size: 40px;
+    color: #342B4B;
+}
+
+.descripcion {
+    font-size: 20px;
+}
+
+.titulos_secciones {
+    font-size: 60px;
+    color: #342B4B;
+}
+
+.foto {
+    height: 500px;
+    border-radius: 100px;
+}
+
+.stack {
+    background-color: #4B4263;
+}
+
+.img_stack {
+    border-radius: 100px;
+    height: 70px;
+}
+
+.stack ul {
+	position: relative;
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+    justify-content: center;
+}
+
+.stack ul li {
+	width: 200px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	position: relative;
+	z-index: 2;
+	overflow: hidden;
+}
+
+.imagen_proyectos {
+    height: 400px;
+}
